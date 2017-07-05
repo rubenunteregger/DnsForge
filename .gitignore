@@ -1,0 +1,46 @@
+# Ignore files that are not part of the solution/project basis files. 
+# This are files like products of the build process (.exe, .dll, .log, etc)
+#
+**/*.ipdb
+**/*.pdb
+**/*.pch
+**/*.dll
+**/*.cache
+**/*.log
+**/*.tlog
+**/*.resources
+**/*.obj
+**/*.iobj
+**/*.txt
+**/*.exe
+**/*.xml
+**/*.manifest
+**/*.res
+**/*.buildstate
+**/*.unsuccessfulbuild
+**/*.idb
+**/*.rc
+**/*.user
+**/*.sdf
+**/*.vc.db
+**/*.opendb
+**/*.opensdf
+**/*.suo
+**/*.cd
+**/*.Cache
+**/*.tlog
+**/*.lastbuildstate
+
+
+# Ignore directories that are not part of the solution/project basis files. 
+#
+ipch/
+.vs/
+
+**/bin/Release/*
+**/bin/Debug/*
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+
